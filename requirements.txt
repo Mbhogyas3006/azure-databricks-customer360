@@ -1,0 +1,6 @@
+pyspark==3.5.0
+delta-spark==3.0.0
+pytest==8.1.0
+pytest-cov==5.0.0
+pandas==2.2.0
+faker==24.0.0

@@ -1,0 +1,31 @@
+__pycache__/
+*.pyc
+.env
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Delta tables (local dev only — never commit)
+/tmp/
+
+# Synthetic data — commit only the generator script, not the CSVs
+data/synthetic/*.csv
+
+# Databricks connect config
+.databricks/
+databricks.yml.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Secrets
+*.pem
+*.key
+secrets/
